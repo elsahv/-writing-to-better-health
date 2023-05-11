@@ -11,7 +11,7 @@ export default async function Home() {
     <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 2xl:gap-14 lg:gap-5 md:gap-4">
      {projects.map((project) => (
         <div key={project._id}>
-          <h2 className="capitalize">{project.name}</h2> 
+          <h2 className="capitalize pl-1">{project.name}</h2> 
           <Link href={`/projects/${project.slug}`}>
             <div className="">
           {project.image && (
