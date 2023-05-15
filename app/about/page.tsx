@@ -3,9 +3,9 @@ import img2 from "../../public/images/self.jpg";
 
 const About = () => {
   return (
-    <div className="flex justify-center p-5 h-screen mt-[125px]" id="about">
-    <div className="flex">
-      <section className="p-5">
+    <div className="">
+      <div className="grid grid-cols-2">
+      <section className="">
         <h2 className="text-2xl">About</h2>
         <p>
           Welcome to Writing to Better Health!! This site is currently a
@@ -16,11 +16,13 @@ const About = () => {
           {"I'm"} Elsa, a web developer who really, really likes food.
         </p>
       </section>
-      <div className="p-5 w-96 h-96">
+      <section className="p-5 w-96 h-96">
         <Image src={img2} alt="elsa-hovey" className="img" />
-      </div>
+      </section>
     </div>
-  </div>
+    </div>
+
+
   );
 };
 
