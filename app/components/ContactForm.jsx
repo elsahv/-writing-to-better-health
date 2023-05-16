@@ -97,7 +97,7 @@ const ContactForm = () => {
         )}
       </label>
       <textarea
-        className="border border-black bg-teal-200 my-2 mx-2 p-2 2xl:w-full lg:w-3/4 md:w-3/4 sm:w-[200px]  "
+        className="border border-black bg-teal-200 my-2 mx-2 p-2 2xl:w-full lg:w-3/4 md:w-3/4 sm:w-[200px]"
         value={values.message}
         onBlur={handleBlur}
         onChange={handleChange}
@@ -107,7 +107,7 @@ const ContactForm = () => {
       />
       {/* BUTTON */}
       <input
-        className="border border-black bg-teal-400 w-1/4 mt-5 p-2 rounded-sm cursor-pointer"
+        className="border border-black bg-teal-400 w-1/4 mt-5 ml-2 rounded-sm cursor-pointer"
         type="submit"
         value="send"
       />
