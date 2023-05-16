@@ -3,7 +3,7 @@ const today = new Date();
 
 const Footer = () => {
   return (
-    <footer className="relative bottom-0 w-full flex justify-center border border-t-slate-700">
+    <footer className="relative bottom-0 py-2 w-full flex justify-center border border-t-rosyBrown">
       Writing to Better Health | Copyright &copy; {today.getFullYear()}
     </footer>
   );

@@ -13,6 +13,7 @@ module.exports = {
         aquamarine: "#7FFFD4",
         parchment: "#f0ead2",
         rosyBrown: "#B18D9B",
+        test: "#f88379",
       },
     },
   },
