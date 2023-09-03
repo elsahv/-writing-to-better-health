@@ -4,6 +4,8 @@ import Link from 'next/link'
 
 export default async function Home() {
 
+
+  
   const projects = await getProjects()
   return (
     <div className="2xl:mt-[75px] 2xl:my-[55px] 2xl:px-[150px] md:px-[50px] md:mt-5 sm:px-5">
