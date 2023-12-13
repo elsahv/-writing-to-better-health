@@ -38,6 +38,12 @@ const project = {
       type: "url"
     },
     {
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      of: [{ type: 'projectImage' }],
+    },
+    {
       name: "content",
       title: "Content",
       type: "array",
